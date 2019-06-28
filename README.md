@@ -1,4 +1,4 @@
-# simple-ecommerce-cart
+# Simple Ecommerce Cart
 Simple ecommerce cart let the user add and remove items from the cart.
 
 ## Goal
