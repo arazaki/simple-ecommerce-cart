@@ -1,8 +1,8 @@
 # Simple Ecommerce Cart
-Simple ecommerce cart let the user add and remove items from the cart.
+A simple e-commerce cart lets the user add and remove items from the cart.
 
 ## Goal
-To use different pattern to organize action and reducers.
+To use a different pattern to organize action and reducers.
 
 ## Tech Stack used
 - React
@@ -17,8 +17,22 @@ git clone git@github.com:arazaki/simple-ecommerce-cart.git
 cd simple-ecommerce-cart
 
 yarn install
+```
 
-yarn serve
+Before starting the application, install json-server to use db.json sample data and run the following commands.
+
+```bash
+npm install -g json-server
+
+json-server public/db.json --port 8000
+
+```
+
+Then, in a new terminal, start the application.
+
+```bash
+yarn start
+
 ```
 
 ## Contributing
